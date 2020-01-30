@@ -1,8 +1,7 @@
 <template>
   <div id="app">
     <div id="nav" class="float-right">
-      <router-link to="/">Inicio</router-link> |
-      <router-link to="/about">Pokedex</router-link>
+
     </div>
     <router-view/>
   </div>
@@ -13,7 +12,6 @@
 
 body, html {
 background-color: #F6F6FF !important;
-
 }
 
 
