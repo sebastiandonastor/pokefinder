@@ -1,14 +1,22 @@
 <template>
   <div id="app">
     <div id="nav" class="float-right">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/">Inicio</router-link> |
+      <router-link to="/about">Pokedex</router-link>
     </div>
     <router-view/>
   </div>
 </template>
 
 <style>
+
+
+body, html {
+background-color: #F6F6FF !important;
+
+}
+
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
